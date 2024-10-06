@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Daniel Jimmy's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Ming Ji"
 description              : &description "I'm a beginner in the field of Deep Learning, passionate about learning how to train Deep Neural Networks on large datasets."
