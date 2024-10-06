@@ -21,12 +21,12 @@ repository               : "Jim3503/Jim3503.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "2.jpg"
   name             : "Ming Ji"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Zhejiang University"
+  location         : "Hangzhou China"
+  employer         : 
   uri              : # URL
   email            : "none@example.org" 
 
