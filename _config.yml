@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Daniel Jimmy's Personal Homepage"
 title_separator          : "-"
-name                     : &name "Ming Ji"
+name                     : &name "Daniel Jimmy"
 description              : &description "I'm a beginner in the field of Deep Learning, passionate about learning how to train Deep Neural Networks on large datasets."
 url                      : https://Jim3503.github.io # the base hostname & protocol for your site e.g. "https://Jim3503.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "Jim3503/Jim3503.github.io"
 author:
   # Biographic information
   avatar           : "2.jpg"
-  name             : "Ming Ji"
+  name             : "Daniel Jimmy"
   pronouns         : # example: "she/her"  
   bio              : "Zhejiang University"
   location         : "Hangzhou China"
