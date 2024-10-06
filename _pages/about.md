@@ -4,7 +4,7 @@ title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - /Danieljimmy.html
 ---
 
 I'm a first-year master's student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large models, and training deep learning models on large datasets.
