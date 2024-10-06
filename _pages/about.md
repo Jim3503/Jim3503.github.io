@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Daniel jimmy's Personal page: About me
+title: "Daniel jimmy's Personal page: About me"
 author_profile: true
 redirect_from: 
   - /about/
