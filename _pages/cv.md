@@ -11,35 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Information Science and Electronic Engineering, Zhejiang University, 2024 (present)
+  * College of Information Science and Electronic Engineering
+  * Research: Computer Vision, Multimodal Learning, Large Models
+* B.S. in Electronic Information Engineering, Jilin University, 2023
+  * State Key Laboratory on Integrated Optoelectronics
 
-Work experience
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Computer Vision
+* Multimodal Learning
+* Large Language Models
+* Deep Learning on Large Datasets
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C++, MATLAB
+* Deep Learning Frameworks: PyTorch, TensorFlow, Keras
+* Computer Vision: OpenCV, PIL, Image Processing
+* Tools & Platforms: Git, Docker, Linux, Jupyter
+* Languages: Chinese (Native), English (Professional)
 
 Publications
 ======
@@ -61,4 +52,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for academic conferences and journals
