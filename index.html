@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Ming Ji</title>
+<meta name="description" content="Ming Ji's Personal Homepage - Deep Learning & AI Researcher">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%232c3e50'/%3E%3Ctext x='50' y='65' font-family='Arial, sans-serif' font-size='42' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EMJ%3C/text%3E%3C/svg%3E">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap">
+
+<!-- Styles -->
+<link rel="canonical" href="/">
+
+<style>
+  /* Global font setting */
+  body, * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif !important;
+  }
+
+  /* Body background */
+  body {
+    background-color: #fafafa;
+  }
+
+  /* Link styles */
+  a {
+    transition: color 0.2s ease;
+  }
+
+  /* About Me section links */
+  #about a {
+    color: #3498db !important;
+    text-decoration: none;
+  }
+
+  #about a:hover {
+    color: #2980b9 !important;
+    text-decoration: underline;
+  }
+
+  /* Heading styles */
+  h2 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e8e8e8;
+    font-size: 1.5em;
+  }
+
+  article > h2:first-of-type {
+    padding-top: 5px;
+  }
+
+  h3 {
+    color: #34495e;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+  }
+
+  /* Paragraph spacing */
+  p {
+    margin-bottom: 12px;
+    line-height: 1.7;
+  }
+
+  /* Publication list spacing */
+  ol li {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    line-height: 1.6;
+  }
+
+  ol li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* List spacing */
+  ul {
+    margin-bottom: 15px;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+
+  /* Table spacing */
+  table {
+    margin-bottom: 20px;
+  }
+
+  table tr {
+    line-height: 1.5;
+  }
+
+  table td, table th {
+    padding: 8px 12px !important;
+  }
+
+  /* Navigation bar */
+  #navbar {
+    padding: 12px 0;
+    background-color: #fff !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    z-index: 1030;
+  }
+
+  #navbar .container {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #navbar .navbar-nav {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+
+  #navbar .nav-item {
+    margin-right: 35px;
+  }
+
+  #navbar .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333 !important;
+    padding: 5px 0 !important;
+    transition: color 0.2s ease;
+    position: relative;
+  }
+
+  #navbar .nav-link:hover {
+    color: #3498db !important;
+  }
+
+  #navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+  }
+
+  #navbar .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Anchor positions */
+  h2[id], div[id] {
+    scroll-margin-top: 80px;
+  }
+
+  /* Sidebar responsive */
+  @media (max-width: 768px) {
+    #sidebar {
+      display: none;
+    }
+    main {
+      margin-left: 0 !important;
+      padding: 20px !important;
+    }
+    #navbar .nav-item {
+      margin-right: 20px;
+    }
+  }
+
+  /* Smooth scrolling */
+  #sidebar {
+    scrollbar-width: thin;
+    scrollbar-color: #d0d0d0 #ffffff;
+  }
+
+  #sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  #sidebar::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  #sidebar::-webkit-scrollbar-thumb {
+    background: #d0d0d0;
+    border-radius: 3px;
+  }
+
+  #sidebar::-webkit-scrollbar-thumb:hover {
+    background: #b0b0b0;
+  }
+
+  #sidebar a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  #sidebar a:hover {
+    color: #3498db;
+  }
+
+  /* Publication tag styles */
+  .pub-tag {
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #555;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.75em;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 4px;
+  }
+
+  /* News table */
+  .news table {
+    font-size: 0.95em;
+  }
+
+  .news th {
+    font-weight: 500;
+    color: #7f8c8d;
+    white-space: nowrap;
+    vertical-align: top;
+  }
+
+  /* Award emoji */
+  .award {
+    color: #f39c12;
+  }
+</style>
+
+  </head>
+
+  <body class="fixed-top-nav " id="top">
+
+    <!-- Header -->
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#internships">Internships</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+    <div style="display: flex; margin-top: 70px; padding-top: 0;">
+      <!-- Left Sidebar - Fixed -->
+      <aside id="sidebar" style="width: 260px; position: fixed; top: 70px; left: 0; height: calc(100vh - 70px); overflow-y: auto; padding: 20px 20px; background-color: #ffffff; border-right: 1px solid #e8e8e8; z-index: 1020; box-shadow: 1px 0 3px rgba(0,0,0,0.03);">
+        <div style="text-align: center; margin-bottom: 20px;">
+          <img src="/images/profile.jpg" alt="Ming Ji" style="width: 160px; height: auto; border-radius: 50%; margin-bottom: 15px; border: 3px solid #f5f5f5; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+          <h2 style="margin: 10px 0 5px 0; font-size: 1.5em; color: #2c3e50; font-weight: 600;">Ming Ji</h2>
+          <h3 style="margin: 0; font-size: 1em; color: #7f8c8d; font-weight: 400;">季鸣</h3>
+        </div>
+        <div style="padding: 0 3px;">
+          <p style="margin: 15px 0; line-height: 1.8; color: #34495e; font-size: 0.9em;">
+            <strong style="color: #2c3e50; font-weight: 600;">Master's Student</strong><br />
+            <a href="https://www.isee.zju.edu.cn/" target="_blank" rel="noopener noreferrer" style="color: #3498db; text-decoration: none;">Zhejiang University</a><br />
+            College of Information Science & Electronic Engineering<br />
+            <span style="color: #555;">Hangzhou, China</span>
+          </p>
+          <hr style="margin: 20px 0; border: none; border-top: 1px solid #e8e8e8;" />
+          <p style="margin: 15px 0; line-height: 2; color: #34495e; font-size: 0.9em;">
+            <svg style="width: 18px; height: 18px; margin-right: 10px; vertical-align: middle; fill: #555;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> <a href="mailto:ming.ji@zju.edu.cn" style="color: #34495e; text-decoration: none;">ming.ji@zju.edu.cn</a><br />
+            <svg style="width: 18px; height: 18px; margin-right: 10px; vertical-align: middle; fill: #555;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg> <a href="https://github.com/Jim3503" target="_blank" rel="noopener noreferrer" style="color: #34495e; text-decoration: none;">GitHub</a>
+          </p>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main style="margin-left: 260px; flex: 1; padding: 15px 40px 30px 40px; background-color: #fafafa; min-height: calc(100vh - 70px);">
+        <div class="post">
+          <header class="post-header">
+            <h1 class="post-title" style="display: none;">Ming Ji</h1>
+          </header>
+
+          <article>
+
+<h2 id="about">About Me</h2>
+<p>
+  I am a Master's student at the <a href="https://www.isee.zju.edu.cn/" target="_blank" rel="noopener noreferrer">College of Information Science & Electronic Engineering, Zhejiang University</a>. My research interests include <strong>Computer Vision</strong>, <strong>Multimodal Learning</strong>, <strong>Large Language Models</strong>, and <strong>Agent-based Systems</strong>.
+</p>
+
+<p>
+  💬 Feel free to reach out for collaboration: <a href="mailto:ming.ji@zju.edu.cn">ming.ji@zju.edu.cn</a>
+</p>
+
+<h2 id="education">🎓 Education</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Institution</th>
+      <th>Major</th>
+      <th>Degree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2024 - Present</td>
+      <td>Zhejiang University</td>
+      <td>Information & Electronic Engineering</td>
+      <td>Master</td>
+    </tr>
+    <tr>
+      <td>2020 - 2024</td>
+      <td>Jilin University</td>
+      <td>Electronic Information Engineering</td>
+      <td>Bachelor</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="honors">🏆 Honors & Awards</h2>
+<ul>
+  <li><span class="award">🥇</span> Outstanding Student, Zhejiang University</li>
+  <li><span class="award">🥇</span> Outstanding Student Cadre, Zhejiang University</li>
+  <li><span class="award">🥈</span> Outstanding Student, Jilin University</li>
+  <li><span class="award">🥈</span> Second-Class Scholarship, Jilin University</li>
+  <li><span class="award">🏅</span> Provincial First Prize, National Undergraduate Mathematics Competition</li>
+  <li><span class="award">🏅</span> Provincial Second Prize, National Undergraduate Electronic Design Competition</li>
+  <li><span class="award">📄</span> One paper published (First Author)</li>
+  <li><span class="award">🔬</span> One patent granted</li>
+</ul>
+
+<div class="publications">
+<h2 id="publications">📝 Publications</h2>
+
+<ol>
+
+<li>
+  <strong>GluNet: Dual-Modality Latent Gloss Alignment for Gloss-free Sign Language Translation</strong><br />
+  <span style="color: #3498db; font-weight: 500;">Ming Ji</span>, Co-authors<br />
+  <i>PAKDD 2026 (CCF-C Conference)</i>, 2026.<br />
+  <a href="https://github.com/Jim3503/GluNet/" target="_blank" rel="noopener noreferrer">[Paper]</a> <a href="https://github.com/Jim3503/GluNet/" target="_blank" rel="noopener noreferrer">[Code]</a>
+</li>
+
+<li>
+  <strong>A Survey on Sign Language Translation: From Gloss-free to LLM-based Approaches</strong><br />
+  <span style="color: #3498db; font-weight: 500;">Ming Ji</span>, Co-authors<br />
+  <i>Survey Paper</i>, 2025.<br />
+  <a href="#" target="_blank" rel="noopener noreferrer">[Paper]</a>
+</li>
+
+</ol>
+
+</div>
+
+<div class="projects">
+<h2 id="projects">🚀 Projects</h2>
+
+<ul>
+
+<li>
+  <strong>Tradeclaw: Multi-Agent Trading Review System</strong><br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Intelligent Agent System • 2025</span><br />
+  <span style="font-size: 0.95em;">Designed and implemented an intelligent trading review Agent for A-share trading scenarios. The system combines real-time market data fetching, technical indicator calculation (K-line, MA, volume-price analysis), and LLM-based trading review. Features include trading scoring, buy/sell point analysis, and improvement suggestions. <a href="https://github.com/Jim3503/Tradeclaw" target="_blank" rel="noopener noreferrer" style="color: #3498db;">[GitHub]</a></span>
+</li>
+
+<li>
+  <strong>Hierarchical Retrieval-Augmented Sign Language Semantic Distillation Framework</strong><br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Research Project • 2025</span><br />
+  <span style="font-size: 0.95em;">Developed a hierarchical knowledge distillation framework using RAG paradigm with Qwen2.5-7B as the teacher model. Introduced retrieval-augmented generation technology to build In-context Learning context, addressing LLM hallucination issues on low-resource data. Achieved 94.68% implicit semantic feature Vocab Hit Rate and 2x training efficiency improvement.</span>
+</li>
+
+<li>
+  <strong>RAG Framework Development and Optimization</strong><br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Yizhi Intelligent Internship • 2025</span><br />
+  <span style="font-size: 0.95em;">Developed RAG framework based on BGE-M3 for low-resource long sequence generation tasks. Built text-to-text index library with Re-ranking mechanism and few-shot In-context Learning implementation.</span>
+</li>
+
+<li>
+  <strong>Script Generation Agent System</strong><br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Zhixingyuan Internship • 2025</span><br />
+  <span style="font-size: 0.95em;">Built script generation agent based on LLM for multi-turn conversational script creation. Developed ComfyUI no-code workflow for automated script-to-storyboard generation. Integrated LoRA style transfer, ControlNet pose control, and IP-Adapter character consistency nodes.</span>
+</li>
+
+</ul>
+
+</div>
+
+<h2 id="internships">💼 Internships</h2>
+
+<h3 style="font-size: 1.1em; color: #2c3e50; font-weight: 600;">Algorithm Intern</h3>
+<p style="margin-bottom: 20px;">
+  <strong style="color: #2c3e50;">Yizhi Intelligent</strong>, Hangzhou (Mar 2025 – Jun 2025)<br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Developed RAG framework based on BGE-M3 for low-resource long sequence generation tasks</span>
+</p>
+
+<ul style="margin-bottom: 25px;">
+  <li>Built text-to-text index library with Re-ranking mechanism</li>
+  <li>Implemented few-shot In-context Learning to improve domain-specific Q&A accuracy</li>
+</ul>
+
+<h3 style="font-size: 1.1em; color: #2c3e50; font-weight: 600;">Algorithm Intern</h3>
+<p style="margin-bottom: 20px;">
+  <strong style="color: #2c3e50;">Zhixingyuan</strong>, Hangzhou (Nov 2025 – Dec 2025)<br />
+  <span style="color: #7f8c8d; font-size: 0.95em;">Built script generation agent based on LLM for multi-turn conversational script creation</span>
+</p>
+
+<ul>
+  <li>Developed ComfyUI no-code workflow for automated script-to-storyboard generation</li>
+  <li>Integrated LoRA style transfer, ControlNet pose control, and IP-Adapter character consistency</li>
+</ul>
+
+</article>
+
+          </article>
+        </div>
+      </main>
+    </div>
+
+</body>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+
+        // Smooth scroll with offset for anchor links
+        $('a[href^="#"]').on('click', function(e) {
+            var target = $(this.getAttribute('href'));
+            if(target.length) {
+                e.preventDefault();
+                var offset = 80; // Offset for fixed navbar
+                if(this.getAttribute('href') === '#top') {
+                    window.scrollTo({top: 0, behavior: 'instant'});
+                } else {
+                    var targetPosition = target.offset().top - offset;
+                    window.scrollTo({top: targetPosition, behavior: 'instant'});
+                }
+            }
+        });
+    });
+</script>
+
+</html>
