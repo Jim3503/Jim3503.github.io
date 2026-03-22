@@ -13,8 +13,13 @@ I'm a master's student at the [College of Information Science and Electronic Eng
 
 | Date | News |
 |------|------|
-| March 2025 | Started my master's journey at Zhejiang University |
-| 2024 | Completed B.S. in Electronic Information Engineering at Jilin University |
+| March 2025 | 🎉 Started master's studies at Zhejiang University |
+| 2025 | 📝 Paper submitted to Chinese Journal of Computers (CCF-A, under review) |
+| 2025 | 🏆 One authorized patent granted |
+| 2025 | 📢 Paper accepted by PAKDD 2026 (CCF-C Conference) |
+| Nov 2025 | 💼 Algorithm Intern at Zhixingyuan |
+| Mar 2025 | 💼 Algorithm Intern at Yizhi Intelligence |
+| 2024 | 🎓 Completed B.S. at Jilin University with honors |
 
 ## Research Focus
 
