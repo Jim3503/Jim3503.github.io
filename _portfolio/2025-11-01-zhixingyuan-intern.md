@@ -4,7 +4,7 @@ collection: portfolio
 permalink: /portfolio/zhixingyuan-intern
 date: 2025-11-01
 venue: "Algorithm Internship"
-authors: '<strong>Daniel Jimmy</strong>'
+authors: '<strong>Ming Ji</strong>'
 ---
 
 **Role:** Algorithm Intern (November 2025 - December 2025)

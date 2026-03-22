@@ -14,4 +14,4 @@ A comprehensive survey on sign language translation models, systematically analy
 
 [GitHub Repository](https://github.com/Jim3503/Awesome_Sign/) | [PDF](#) (Under Review)
 
-Recommended citation: <strong>Daniel Jimmy</strong>, et al. (2025). "From Gesture Recognition to Multimodal Large Models: Evolution and Challenges of Sign Language Translation." <i>Chinese Journal of Computers</i> (CCF-A, Under Review).
+Recommended citation: <strong>Ming Ji</strong>, et al. (2025). "From Gesture Recognition to Multimodal Large Models: Evolution and Challenges of Sign Language Translation." <i>Chinese Journal of Computers</i> (CCF-A, Under Review).

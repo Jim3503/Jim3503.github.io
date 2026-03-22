@@ -9,58 +9,50 @@ redirect_from:
 
 <a id="about"></a>
 
-## About Me
-<!-- 
-I'm a master's student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large language models, and training deep neural networks on large-scale datasets. -->
-I’m a master’s student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large language models, and agent-based intelligent systems.
+## 👋 关于我
 
+我是[浙江大学信息与电子工程学院](https://www.isee.zju.edu.cn/)的硕士研究生，主要研究方向包括**计算机视觉**、**多模态学习**、**大语言模型**以及**基于智能体的系统**。
 
-### Education
+### 🎓 教育背景
 
-**M.S.** in Information Science and Electronic Engineering, Zhejiang University (2024–present)
+| 时间 | 学校 | 专业 | 学位 |
+|------|------|------|------|
+| 2024 - 至今 | 浙江大学 | 信息与电子工程 | 硕士 |
+| 2020 - 2024 | 吉林大学 | 电子信息工程 | 本科 |
 
-**B.S.** in Electronic Information Engineering, Jilin University (2020–2024)
+### 🏆 荣誉奖项
 
-<!-- ### Skills
+- 🥇 浙江大学优秀学生
+- 🥇 浙江大学优秀学生干部
+- 🥈 吉林大学优秀学生
+- 🥈 吉林大学二等奖学金
+- 🏅 全国大学生数学竞赛省级一等奖
+- 🏅 全国大学生电子设计竞赛省级二等奖
+- 📄 发表论文一篇（第一作者）
+- 🔬 授权专利一项
 
-**Programming**: Python, C++, MATLAB, Shell Scripting
-
-**Deep Learning**: PyTorch, TensorFlow, Keras, Hugging Face Transformers
-
-**Computer Vision**: OpenCV, PIL, Scikit-image, Image Processing
-
-**LLM & Agents**: RAG, In-context Learning, Multi-Agent Systems, Prompt Engineering
-
-**Tools**: Git, Docker, Linux (Ubuntu), Jupyter, VS Code, FastAPI, ComfyUI -->
-
-
-### Awards & Honors
-
-- One paper published as first author; one authorized patent granted
-- Outstanding Student, Zhejiang University
-- Outstanding Student Leader, Zhejiang University
-- Outstanding Student, Jilin University
-- Second-Class Scholarship, Jilin University
-- First Prize, National Undergraduate Mathematics Competition (Provincial Level)
-- Second Prize, National Undergraduate Electronic Design Competition (Provincial Level)
-
-💬 Feel free to drop me emails (ming.ji@zju.edu.cn) if you have interests in above topics, and collaborations are welcomed.
+💬 欢迎通过邮件与我交流合作：ming.ji@zju.edu.cn
 
 ---
 
 <a id="publications"></a>
 
-## Publications
+## 📝 论文发表
 
 {% for post in site.publications reversed %}
-**{{ post.title }}** <br>
-{{ post.authors }} <br>
-{{ post.venue }}, {{ post.date | date: "%Y" }} <br>
-[PDF]({{ post.paperurl }}) {% if post.paperurl contains 'github' %}| [Code]({{ post.paperurl }}){% endif %}
+**{{ post.title }}**
+
+{{ post.authors }}
+
+{{ post.venue }}, {{ post.date | date: "%Y" }}
+
+[PDF]({{ post.paperurl }}) {% if post.paperurl contains 'github' %}| [代码]({{ post.paperurl }}){% endif %}
 
 {% endfor %}
 
-### Projects
+---
+
+### 🚀 项目经历
 
 {% for post in site.portfolio reversed %}
 **{{ post.title }}**
@@ -75,24 +67,26 @@ I’m a master’s student at the [College of Information Science and Electronic
 
 <a id="internships"></a>
 
-## Internships
+## 💼 实习经历
 
-### Algorithm Intern
-**Yizhi Intelligence, Hangzhou** (March 2025 – June 2025)
+### 算法实习生
+**一知智能**，杭州 (2025.03 – 2025.06)
 
-- Developed RAG framework using BGE-M3 for low-resource long-sequence generation
-- Built Text-to-Text index library with Re-ranking mechanism
-- Implemented Few-shot In-context Learning for domain-specific QA
-
-### Algorithm Intern
-**Zhixingyuan, Hangzhou** (November 2025 – December 2025)
-
-- Built script generation Agent with LLM and JSON Schema constraints
-- Developed ComfyUI workflow for automated storyboard generation
-- Integrated LoRA, ControlNet, and IP-Adapter for consistent character generation
+- 基于 BGE-M3 开发 RAG 框架，应用于低资源长序列生成任务
+- 构建文本到文本索引库，实现 Re-ranking 机制
+- 实现少样本 In-context Learning，提升特定领域问答准确性
 
 ---
 
-## Contact
+### 算法实习生
+**知行元**，杭州 (2025.11 – 2025.12)
 
-[Email](mailto:ming.ji@zju.edu.cn) / [Github](https://github.com/Jim3503) 
+- 搭建剧本生成智能体，基于 LLM 实现多轮对话式剧本创作
+- 开发 ComfyUI 无代码工作流，实现剧本到分镜图的自动化生成
+- 集成 LoRA 风格迁移、ControlNet 姿态控制和 IP-Adapter 角色一致性节点
+
+---
+
+## 📧 联系方式
+
+[📧 邮箱](mailto:ming.ji@zju.edu.cn) | [🐙 GitHub](https://github.com/Jim3503)

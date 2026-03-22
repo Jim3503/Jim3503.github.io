@@ -1,4 +1,4 @@
-# Daniel Jimmy's Personal Homepage
+# Ming Ji's Personal Homepage
 
 Welcome to my personal academic website repository! This site is built with [Academic Pages](https://academicpages.github.io/), a GitHub Pages template designed for academics and researchers.
 

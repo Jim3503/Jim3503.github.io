@@ -4,7 +4,7 @@ collection: portfolio
 permalink: /portfolio/yizhi-intern
 date: 2025-03-01
 venue: "Algorithm Internship"
-authors: '<strong>Daniel Jimmy</strong>'
+authors: '<strong>Ming Ji</strong>'
 ---
 
 **Role:** Algorithm Intern (March 2025 - June 2025)

@@ -4,7 +4,7 @@ collection: portfolio
 permalink: /portfolio/tradeclaw
 date: 2025-01-01
 venue: "Intelligent Agent System"
-authors: '<strong>Daniel Jimmy</strong>'
+authors: '<strong>Ming Ji</strong>'
 ---
 
 Designed and implemented an intelligent trading review Agent for A-share trading scenarios. The system combines real-time market data fetching, K-line/moving average/volume-price indicator calculation, and large language model reasoning to conduct structured reviews of trading records.

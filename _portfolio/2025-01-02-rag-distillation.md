@@ -4,7 +4,7 @@ collection: portfolio
 permalink: /portfolio/rag-sign-distillation
 date: 2025-01-02
 venue: "Research Project"
-authors: '<strong>Daniel Jimmy</strong>'
+authors: '<strong>Ming Ji</strong>'
 ---
 
 Developed a hierarchical knowledge distillation framework using RAG paradigm with Qwen2.5-7B as the teacher model. Introduced retrieval-augmented generation technology to build In-context Learning context, addressing LLM hallucination issues on low-resource data.
