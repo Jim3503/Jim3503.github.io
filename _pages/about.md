@@ -10,16 +10,10 @@ redirect_from:
 <a id="about"></a>
 
 ## About Me
+<!-- 
+I'm a master's student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large language models, and training deep neural networks on large-scale datasets. -->
+I’m a master’s student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large language models, and agent-based intelligent systems.
 
-I'm a master's student at the [College of Information Science and Electronic Engineering](https://www.isee.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/). My research interests include computer vision, multimodal learning, large language models, and training deep neural networks on large-scale datasets.
-
-### Research Focus
-
-I am particularly interested in:
-- **Computer Vision**: Image recognition, object detection, and visual understanding
-- **Multimodal Learning**: Vision-language models and cross-modal learning
-- **Large Models**: Training and fine-tuning large-scale deep learning models
-- **Deep Learning**: Developing efficient training methods for large datasets
 
 ### Education
 
@@ -27,7 +21,7 @@ I am particularly interested in:
 
 **B.S.** in Electronic Information Engineering, Jilin University (2020–2024)
 
-### Skills
+<!-- ### Skills
 
 **Programming**: Python, C++, MATLAB, Shell Scripting
 
@@ -37,15 +31,18 @@ I am particularly interested in:
 
 **LLM & Agents**: RAG, In-context Learning, Multi-Agent Systems, Prompt Engineering
 
-**Tools**: Git, Docker, Linux (Ubuntu), Jupyter, VS Code, FastAPI, ComfyUI
+**Tools**: Git, Docker, Linux (Ubuntu), Jupyter, VS Code, FastAPI, ComfyUI -->
+
 
 ### Awards & Honors
 
+- One paper published as first author; one authorized patent granted
+- Outstanding Student, Zhejiang University
+- Outstanding Student Leader, Zhejiang University
+- Outstanding Student, Jilin University
+- Second-Class Scholarship, Jilin University
 - First Prize, National Undergraduate Mathematics Competition (Provincial Level)
 - Second Prize, National Undergraduate Electronic Design Competition (Provincial Level)
-- Second-Class Scholarship, Jilin University
-- Outstanding Student, College Level
-- Published 1 paper (1st author), 1 authorized patent
 
 💬 Feel free to drop me emails (ming.ji@zju.edu.cn) if you have interests in above topics, and collaborations are welcomed.
 
@@ -56,15 +53,10 @@ I am particularly interested in:
 ## Publications
 
 {% for post in site.publications reversed %}
-### {{ post.title }}
-
-{{ post.authors }}
-
-{{ post.venue }}, {{ post.date | date: "%Y" }}
-
-[[PDF]]({{ post.paperurl }}) {% if post.paperurl contains 'github' %}[[Code]]({{ post.paperurl }}){% endif %}
-
-{{ post.excerpt }}
+**{{ post.title }}** <br>
+{{ post.authors }} <br>
+{{ post.venue }}, {{ post.date | date: "%Y" }} <br>
+[PDF]({{ post.paperurl }}) {% if post.paperurl contains 'github' %}| [Code]({{ post.paperurl }}){% endif %}
 
 {% endfor %}
 
