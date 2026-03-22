@@ -21,12 +21,12 @@ repository               : "Jim3503/Jim3503.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "2.jpg"
+  avatar           : "profile.jpg"
   name             : "Daniel Jimmy"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "Zhejiang University"
   location         : "Hangzhou China"
-  employer         : 
+  employer         :
   uri              : # URL
   email            : "ming.ji@zju.edu.cn" 
 
