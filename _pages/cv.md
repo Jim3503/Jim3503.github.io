@@ -11,26 +11,27 @@ redirect_from:
 
 Education
 ======
-* M.S. in Information Science and Electronic Engineering, Zhejiang University, 2024 (present)
+* **M.S.** in Information Science and Electronic Engineering, Zhejiang University, 2024–present
   * College of Information Science and Electronic Engineering
-  * Research: Computer Vision, Multimodal Learning, Large Models
-* B.S. in Electronic Information Engineering, Jilin University, 2023
+  * Research Focus: Computer Vision, Multimodal Learning, Large Models
+* **B.S.** in Electronic Information Engineering, Jilin University, 2019–2023
   * State Key Laboratory on Integrated Optoelectronics
+  * Graduation Project: Deep Learning for Image Recognition
 
 Research Interests
 ======
-* Computer Vision
-* Multimodal Learning
-* Large Language Models
-* Deep Learning on Large Datasets
+* Computer Vision: Image recognition, object detection, visual understanding
+* Multimodal Learning: Vision-language models, cross-modal learning
+* Large Language Models: Training and fine-tuning large-scale models
+* Deep Learning: Efficient training methods for large-scale datasets
 
 Skills
 ======
-* Programming Languages: Python, C++, MATLAB
-* Deep Learning Frameworks: PyTorch, TensorFlow, Keras
-* Computer Vision: OpenCV, PIL, Image Processing
-* Tools & Platforms: Git, Docker, Linux, Jupyter
-* Languages: Chinese (Native), English (Professional)
+* **Programming Languages**: Python, C++, MATLAB, Shell Scripting
+* **Deep Learning Frameworks**: PyTorch, TensorFlow, Keras, Hugging Face Transformers
+* **Computer Vision**: OpenCV, PIL, Scikit-image, Image Processing
+* **Tools & Platforms**: Git, Docker, Linux (Ubuntu), Jupyter, VS Code
+* **Languages**: Chinese (Native), English (Professional – reading/writing/speaking)
 
 Publications
 ======
