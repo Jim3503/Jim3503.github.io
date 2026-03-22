@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/sign-language-survey
 date: 2025-01-01
 venue: 'Chinese Journal of Computers (CCF-A, Under Review)'
-authors: '<strong>Daniel Jimmy</strong>, Co-authors'
+authors: '<strong>Ming Ji</strong>, Co-authors'
 paperurl: 'https://github.com/Jim3503/Awesome_Sign/'
-citation: '<strong>Daniel Jimmy</strong>, et al. (2025). &quot;From Gesture Recognition to Multimodal Large Models: Evolution and Challenges of Sign Language Translation.&quot; <i>Chinese Journal of Computers</i> (Under Review).'
+citation: '<strong>Ming Ji</strong>, et al. (2025). &quot;From Gesture Recognition to Multimodal Large Models: Evolution and Challenges of Sign Language Translation.&quot; <i>Chinese Journal of Computers</i> (Under Review).'
 publication_short: 'Chinese Journal of Computers (Under Review)'
 ---
 

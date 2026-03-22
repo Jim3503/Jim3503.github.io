@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/glunet-pakdd2026
 date: 2026-05-01
 venue: 'PAKDD 2026 (CCF-C Conference)'
-authors: '<strong>Daniel Jimmy</strong>, Co-authors'
+authors: '<strong>Ming Ji</strong>, Co-authors'
 paperurl: 'https://github.com/Jim3503/GluNet/'
-citation: '<strong>Daniel Jimmy</strong>, et al. (2026). &quot;GluNet: Dual-Modality Latent Gloss Alignment for Gloss-free Sign Language Translation.&quot; <i>PAKDD</i>.'
+citation: '<strong>Ming Ji</strong>, et al. (2026). &quot;GluNet: Dual-Modality Latent Gloss Alignment for Gloss-free Sign Language Translation.&quot; <i>PAKDD</i>.'
 publication_short: 'PAKDD 2026'
 ---
 
@@ -14,5 +14,5 @@ We propose a dual-modality latent gloss alignment framework for gloss-free sign 
 
 [Project Page](https://github.com/Jim3503/GluNet/) | [PDF](#) | [Code](https://github.com/Jim3503/GluNet/)
 
-Recommended citation: <strong>Daniel Jimmy</strong>, et al. (2026). "GluNet: Dual-Modality Latent Gloss Alignment for Gloss-free Sign Language Translation." <i>PAKDD 2026</i>.
+Recommended citation: <strong>Ming Ji</strong>, et al. (2026). "GluNet: Dual-Modality Latent Gloss Alignment for Gloss-free Sign Language Translation." <i>PAKDD 2026</i>.
 

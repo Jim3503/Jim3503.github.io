@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Daniel Jimmy"
+title: "Ming Ji"
 author_profile: true
 redirect_from:
   - /about/
