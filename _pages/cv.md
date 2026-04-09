@@ -68,15 +68,13 @@ Projects
 
 Internships
 ======
-* **RAG Algorithm Intern**, Yizhi Intelligence, Hangzhou (Feb 2025 – Jun 2025)
-  * **Background**: Addressed semantic fragmentation in automotive outbound call knowledge base scenarios
-  * **Solution**: Reconstructed RAG system based on Contextual Retrieval paradigm with BGE-M3 + BM25 hybrid indexing and Cross Encoder reranking
-  * **Results**: Core knowledge Top-3 recall +12pt; numerical fact accuracy +15pt; internal quality pass rate +17pt
+* **Yizhi Intelligent**, RAG Algorithm Intern, Hangzhou (Feb 2025 – Jun 2025)
+  * Reconstructed RAG system using Contextual Retrieval with hybrid dense-sparse indexing and reranking for automotive outbound calls
+  * Significantly improving recall accuracy and generation quality
 
-* **LLM Algorithm Intern**, Zhixingyuan, Hangzhou (Nov 2025 – Jan 2026)
-  * **Multi-turn Dialogue Script Agent**: Built CrewAI-based Agent architecture with JSON Schema constraints and FastAPI service interfaces
-  * **Storyboard Generation**: Integrated ComfyUI workflows for automated script-to-storyboard generation
-  * **Video Editing Dataset**: Constructed low-cost Image-to-Video dataset generation pipeline using Wan2.2-TI2V-5B and DiffSynth-Studio
+* **Zhixingyuan**, LLM Algorithm Intern, Hangzhou (Nov 2025 – Jan 2026)
+  * Built multi-turn dialogue Agent based on CrewAI for automated storyboard script generation
+  * Developed Image-to-Video pipeline for low-cost video editing dataset construction
 
 Teaching
 ======

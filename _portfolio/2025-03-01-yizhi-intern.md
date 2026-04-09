@@ -7,15 +7,16 @@ venue: "Algorithm Internship"
 authors: '<strong>Ming Ji</strong>'
 ---
 
-**Role:** Algorithm Intern (March 2025 - June 2025)
+**Role:** RAG Algorithm Intern (February 2025 - June 2025)
 
-**Project: Dense Retrieval-Augmented Generation Framework for Low-Resource Long-Sequence Generation Tasks**
+**Project: Contextual Retrieval System for Automotive Outbound Calls**
 
-Designed and implemented a dense retrieval-augmented generation (RAG) framework based on BGE-M3 for low-resource scenarios.
+Reconstructed RAG system using Contextual Retrieval with hybrid dense-sparse indexing and reranking for automotive outbound calls, significantly improving recall accuracy and generation quality.
 
 **Key Contributions:**
-- Built Text-to-Text index library with Re-ranking mechanism
-- Implemented high-precision Few-shot In-context Learning
-- Significantly improved model accuracy in domain-specific knowledge QA with limited data
+- Addressed semantic fragmentation in automotive outbound call knowledge base scenarios
+- Reconstructed RAG system based on Contextual Retrieval paradigm with BGE-M3 + BM25 hybrid indexing
+- Implemented Cross Encoder reranking mechanism for improved retrieval precision
+- Significantly improved core knowledge Top-3 recall (+12pt), numerical fact accuracy (+15pt), and internal quality pass rate (+17pt)
 
-**Tech Stack:** BGE-M3, RAG, In-context Learning, Semantic Retrieval
+**Tech Stack:** BGE-M3, BM25, Contextual Retrieval, Cross Encoder Reranking, RAG
