@@ -450,25 +450,17 @@
 <h2 id="internships">💼 Internships</h2>
 
 <p style="margin-bottom: 20px;">
-  <strong style="color: #2c3e50;">Yizhi Intelligent (AI Unicorn Company Focusing on NLP and HCI)</strong>, <strong style="color: #2c3e50;">RAG Algorithm Intern</strong>, Hangzhou (Feb 2025 – Jun 2025)<br />
+  <strong style="color: #2c3e50;">Yizhi Intelligent</strong>, <strong style="color: #2c3e50;">RAG Algorithm Intern</strong>, Hangzhou (Feb 2025 – Jun 2025)<br />
   <span style="color: #7f8c8d; font-size: 0.95em;">
-    <strong>Background:</strong> In automotive outbound call scenarios, traditional retrieval suffered from "semantic fragmentation caused by missing context" (e.g., isolated chunk "this feature requires additional fee" lacks feature name reference), leading to poor Top-3 recall and LLM generation hallucinations.<br />
-    <strong>Solution:</strong> Reconstructed RAG system based on Contextual Retrieval paradigm, addressing semantic fragmentation through document-level context-enhanced chunk strategies. Built BGE-M3 dense vector index and BM25 sparse term frequency index for complementary semantic and keyword recall, optimized via Cross Encoder reranking. Designed Few-shot ICL with gold samples to constrain generation style, combined with retrieved fact boundaries to suppress hallucinations.<br />
-    <strong>Results:</strong> Core knowledge Top-3 recall +12pt; numerical fact accuracy +15pt; internal quality pass rate +17pt, effectively suppressing information hallucinations while ensuring sales script professionalism.
+    Reconstructed RAG system using Contextual Retrieval with BGE-M3 dense vectors and BM25 sparse indexing. Implemented Cross Encoder reranking and Few-shot ICL for generation quality control. Achieved +12pt Top-3 recall improvement and +15pt numerical accuracy gain in automotive outbound call scenarios.
   </span>
 </p>
 
 <p style="margin-bottom: 20px;">
-  <strong style="color: #2c3e50;">Zhixingyuan (Company Focusing on AIGC Content Generation and Creative Technology)</strong>, <strong style="color: #2c3e50;">LLM Algorithm Intern</strong>, Hangzhou (Nov 2025 – Jan 2026)<br />
+  <strong style="color: #2c3e50;">Zhixingyuan</strong>, <strong style="color: #2c3e50;">LLM Algorithm Intern</strong>, Hangzhou (Nov 2025 – Jan 2026)<br />
   <span style="color: #7f8c8d; font-size: 0.95em;">
-    <strong>Multi-turn Dialogue Script Agent and Storyboard Development:</strong><br />
-    Background: Traditional storyboard hand-drawing relies on manual work with long cycles from script to visual sketches; needed automated generation from text creativity to storyboards.<br />
-    Responsibilities & Achievements: Built multi-turn dialogue Agent architecture based on CrewAI, implementing structured output from character settings and plot outlines to storyboard scripts through streaming dialogue. Used JSON Schema to constrain LLM output format. Encapsulated Agent capabilities as standardized service interfaces via FastAPI, integrated with async task orchestration to connect ComfyUI storyboard and multi-view image generation workflows, linking the full "script parsing → text-to-image → multi-view" chain.<br />
-    <br />
-    <strong>Low-cost Video Editing Dataset Construction:</strong><br />
-    Background: For video editing tasks, manual large-scale paired dataset construction faces high costs and low efficiency, while commercial video editing models incur high usage costs.<br />
-    Solution: Focused on "add necklace to person" task, built Image-to-Video data generation pipeline based on Wan2.2-TI2V-5B, completing raw video collection, cleaning, first-frame edited reference image generation and training data production. Used DiffSynth-Studio + Accelerate for LoRA fine-tuning on DiT modules, generating edited-before and edited-after video pairs via "first-frame edited image + fixed random seed" during inference to maintain action and scene consistency.<br />
-    Results: Built low-cost video editing dataset construction pipeline, achieving dataset generation for fine-grained tasks like person accessory addition.
+    <strong>Multi-turn Dialogue Agent:</strong> Built CrewAI-based agent architecture with JSON Schema for structured output, enabling automated script-to-storyboard generation via FastAPI integration with ComfyUI workflows.<br />
+    <strong>Video Editing Dataset:</strong> Developed low-cost Image-to-Video pipeline using Wan2.2-TI2V-5B and LoRA fine-tuning for fine-grained video editing tasks.
   </span>
 </p>
 
